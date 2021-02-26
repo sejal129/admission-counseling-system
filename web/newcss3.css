@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2020, 10:44:39 PM
+    Author     : Lenovo
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+ }
+
+
+h1 {
+	text-align: left;
+        margin-left: 40px;
+        font-family: Papyrus;
+       
+  }  
+.register {
+	
+	width: 100%;
+	margin: 50px auto;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+        float: left;
+}
+#register{
+    margin-left: 40px;
+}
+
+label{
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	font-style: italic;
+} 
+#dat{
+    width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#rollno
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#name
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#height
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#weight
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#db
+{
+	width: 110px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#db1
+{
+	width: 80px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#db2
+{
+	width: 110px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#butt
+{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+}
+#butt1
+{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+}
+
+
+.iframe {
+
+}

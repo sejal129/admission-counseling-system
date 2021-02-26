@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<%-- 
+    Document   : master
+    Created on : Feb 19, 2020, 7:42:05 AM
+    Author     : anushka
+--%>
+
+
+
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+          <img src="logo.png" style="height:80px;width:120px;">
+          <nav>
+	 
+           <ul>
+           <li><a href="#hero" style="color:black;font-weight:bold">Home</a>
+           <li><a href="#about" style="color:black;font-weight:bold">About</a>
+	   <li><a href="#contact" style="color:black;font-weight:bold">Contact</a></li>
+           <li><a href="#contact" style="color:black;font-weight:bold">Guidelines</a></li>
+           <li><a href="#contact" style="color:black;font-weight:bold">Login</a></li>
+	   </ul>   
+           </nav>
+   </header>
+          <main>
+            <section>
+                <div class="img">
+                <img class="mySlides" src="1.jpeg">
+<img class="mySlides" src="2.jpeg" >
+<img class="mySlides" src="3.jpeg">
+<img class="mySlides" src="4.jpeg">
+<img class="mySlides" src="5.jpeg">
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) 
+{
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+                    
+           </div>
+            </section>
+            
+            
+        </main>
+        <footer>
+            © Copyright Boberick The Llama, 2017
+        </footer>
+           
+           
+
+        
+    </body>
+</html>
+
+

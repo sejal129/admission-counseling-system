@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 22, 2020, 9:52:48 PM
+    Author     : Lenovo
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+ }
+
+h1 {
+	text-align: left;
+        margin-left: 40px;
+        font-family: Papyrus;
+       
+  }  
+.register {
+	
+	width: 100%;
+	margin: 50px auto;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+        float: left;
+}
+#register{
+    margin-left: 40px;
+}
+
+label{
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	font-style: italic;
+} 
+#rollno
+{
+	width: 280px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P1
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P2
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P3
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P4
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P5
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P6
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P7
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#P8
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+
+
+#butt
+{
+	width: 100px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+}
+#butt1
+{
+	width: 100px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+        
+}
+
+#butt2
+{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+        
+}
+
+
+/* The actual popup (appears on top) */

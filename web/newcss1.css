@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2020, 10:27:20 PM
+    Author     : Lenovo
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+ }
+
+
+h1 {
+	text-align: left;
+        margin-left: 40px;
+        font-family: Papyrus;
+       
+  }  
+.register {
+	
+	width: 100%;
+	margin: 50px auto;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+        float: left;
+}
+#register{
+    margin-left: 40px;
+}
+
+label{
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	font-style: italic;
+} 
+#rollno
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#eid
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+#add
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+#add1
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#city
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#state
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#pin
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#num
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#num1
+{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#ph
+{
+	width: 60px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+#ph1
+{
+	width: 60px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+}
+
+
+#butt
+{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+}
+#butt1
+{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+}

@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2020, 5:46:29 PM
+    Author     : Lenovo
+*/
+
+body{
+    margin:0;
+    padding:0;
+    background: url("Images/yip.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+a{
+
+    color: #efed40;
+    text-decoration: none;
+}
+.LogInBox
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    height:600px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+table{
+    margin-left: 50;
+}
+
+.user{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left:calc(50% -50px);
+}
+h2{
+    margin:0;
+    padding:0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+h3{
+    color: #efed40;
+}
+h1{
+     color: #efed40;
+    text-align: center;
+}
+
+.LogInBox p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    color:#fff;
+}
+.LogInBox input{
+    width:100%;
+    margin-bottom: 20px;
+    
+}
+
+.LogInBox input[type="text"],
+.LogInBox input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+}
+::placeholder{
+    color:rgba(255,255,255,.5);
+}
+.LogInBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #292929;
+    font-size: 16px;
+    background: #ffed7a;
+    cursor:pointer;
+    border-radius: 20px;
+    width:320px;
+}
+.LogInBox input[type="submit"]:hover
+{
+    background: #efed40;
+    color:#262626;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:10px;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+li{
+    float:right;
+}
+li a{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: skyblue;
+}
+.active{
+    background-color: red;
+}
+.tooltip{
+    position:relative;
+    display:inline-block;
+   
+    
+}
+.tooltiptext{
+    visibility: hidden;
+    width:250px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
