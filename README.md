@@ -27,20 +27,20 @@ Some page will have a menu that will provide access to the following screens:
 
 All the above mentioned standards will apply in general, unless specifically stated otherwise.
 The following interfaces will be available:
-#### To the Student
+### To the Student
 - About-Us: This page will provide information about the website development team and will simply display the contact information about the website development team.
 - FAQs: This will display the frequently asked questions and their answers..
 - Login: A login area will be provided where user will be required to supply username and password in order to log into his account and perform the desired tasks.
 - Sign-up: The sign-up facility will be provided to the user in order to create an account and hence become a registered user. The information required will include Exam Roll
 No, username, and password.
 
-#### To the Admin
+### To the Admin
 - View User’s Profiles: This page will allow the Admin to access and view the profile of the registered users.
 - Home: The User will be automatically directed to this screen when he/she logs in. User will be given options to perform various tasks according to his/her authority.
 - Task Selection: This page will allow the user to select a particular task from available options and perform the same. It will allow the user to provide specific
 authorization to the registered students, allot branches and give offline counseling details as per the assigned authority.
 
-#### To the Doctor
+### To the Doctor
 - View User’s Profiles: This page will allow the Doctor to access and view the medical profile of the registered users.
 - Home: The User will be automatically directed to this screen when he/she logs in. User will be given options to perform various tasks according to his/her authority.
 - Task Selection: This page will allow the user to select a particular task from available options and perform the same. It will allow the user to examine medical details of the students and provide necessary precautions according to their medical history as per the assigned authority.
